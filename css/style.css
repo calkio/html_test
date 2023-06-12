@@ -2,6 +2,20 @@
   box-sizing: border-box;
 }
 
+.page {
+  width: min(100% - 40px, 1200px);
+  margin: 0;
+  margin-inline: auto;
+  padding: 0;
+}
+
+.card-conteiner{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
 .card{
   margin: 0;
   padding: 20px;
