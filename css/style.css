@@ -1,1 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 
+.card{
+  margin: 0;
+  padding: 20px;
+
+  background-color: rgb(252, 174, 148);
+  border-radius: 10px;
+}
